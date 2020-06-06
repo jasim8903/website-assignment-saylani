@@ -1,0 +1,408 @@
+/* Media Query */
+
+@media screen and (max-width: 700px) {
+    .page-links, .newsletter, .social-links  {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .card-1, .card-2, .card-3 {
+       margin-top: 10px;
+    }
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    .carousel .carousel-control {
+        width: 5px;
+        height: 5px;
+        margin-top: -20px;
+        top: 25%;
+        background: none;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: white !important;
+        border: 1px dashed black;
+    }
+    #carouselExampleIndicators {
+        width: 100%;
+        height: auto;
+    }
+    .footers {
+        width: 100%;
+        background-color: rgba(29, 27, 27, 0.8);
+        padding-top: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .footers input {
+        margin-left: 60px;
+    }
+    .footers button {
+        margin-left: 70px;
+
+    }
+    .our-products {
+        font-size: 31px;
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    
+    }
+    
+    .card-deck {
+        
+        width: 90%;
+        margin-top: 10px !important;
+        text-align: center;
+    
+    }
+    .card {
+        width: 350px;
+        height: auto;
+    }
+
+    .card-title {
+        font-size: 21px !important;
+        font-weight: 500;
+    }
+    .card img {
+        width: 100%;
+        height: 150px;
+    }
+
+    
+    .card-text, .card-title {
+        text-align: center !important;
+        font-size: 18px !important;
+    }
+    
+    .why-us h2 {
+        font-size: 31px !important;
+        font-weight: 600px !important;
+    
+    }
+    
+    .card-1, .card-2, .card-3 {
+        width: 80%;
+        margin-left: 40px;
+
+    }
+
+    .customer-review {
+        font-size: 31px !important;
+        font-weight: 600px !important;
+    }
+    .product-row {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        text-justify: auto;
+        text-align: center;
+      }
+
+    .about-card {
+        border: 1px solid grey !important;
+        margin-left: 100px !important;
+        margin-top: 20px !important;
+    }
+
+  }
+
+/* Media Query End */
+
+
+
+
+.navbar {
+    background-color: white !important;
+    border: 1px dashed black;
+}
+
+.our-products {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
+
+}
+
+.card-deck {
+    margin-top: 10px !important;
+    text-align: center;
+
+}
+
+.card-title {
+    font-size: 26px !important;
+    font-weight: 600;
+}
+
+.carousel .carousel-control {
+	width: 20px;
+    height: 20px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 45px;
+	line-height: 35px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 2px 2px #e6e6e6, 0 0 0 #000;
+}
+
+.fa-user, .fa-shopping-cart {
+    font-size: 21px;
+}
+
+.fa-shipping-fast, .fa-check-square, .fa-money-bill-alt {
+    font-size: 40px;
+}
+
+.why-us {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-text, .card-title {
+    text-align: center;
+}
+
+.why-us h2 {
+    text-align: center;
+
+}
+
+.card-1, .card-2, .card-3 {
+    box-shadow: 5px 5px 8px grey;
+}
+
+.footers {
+    background-color: rgba(29, 27, 27, 0.8);
+    padding-top: 20px;
+    color: white;
+
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-pagelinks, .footer-pages {
+    color: white !important;
+}
+
+.btn-primary {
+    margin-left: 10px;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter {
+    font-size: 24px;
+}
+.fa-instagram {
+    color: rgb(196, 82, 48);
+}
+
+
+.page-links, .newsletter, .social-links  {
+    width: 30opx;
+    margin-top: 10px;
+}
+
+
+.main {
+      width: 100%;
+      margin-top: 20px;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+
+  }
+
+.main h2 {
+        text-align: center;
+      color:black;
+      width: 200px;
+      font-size: 32px;
+      padding: 5px;
+      height: 40px;
+
+
+  }
+
+.product-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.product-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-justify: auto;
+  }
+
+.product-bottomside h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.product-bottomside h4 {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 550;
+    
+}
+
+.product-overlay {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+.product-topside:hover .product-overlay {
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.product-overlay .fas {
+    cursor: pointer;
+    background-color:transparent;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+}
+
+.product-overlay .btn-secondary {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.about-heading {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.aboutus-para {
+    text-align: justify;
+}
+
+.about-card img {
+    border: 1px solid black hidden;
+    border-radius: 140px;
+    width: 10rem;
+    align-self: center !important;
+    padding-top: 12px;
+}
+
+.about-card {
+    border: 1px solid grey !important;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.team {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+.follow-us {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+
+}
+
+.follow, .fab {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fab {
+    margin-top: 10px;
+}
+.insta {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.contact-heading {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.contact-details p, .contact-details a {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.queries {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.address {
+    margin-top: 13px;
+}
+
+.message-us {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+.contact-form label {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-form input {
+    border: 1px solid black;
+    width: 400px;
+    height: 40px;
+}
+
+.contact-form textarea {
+    border: 1px solid black;
+    width: 400px;
+}
+
+.btn-secondary {
+    background-color: green !important;
+    margin-top: 10px;
+}
+
+.map-container {
+    margin-top: 30px;
+    overflow:hidden;
+    position:relative;
+    }
